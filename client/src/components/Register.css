@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: bor;
+}
+ 
+ 
+ body {
+	 background-color: #ffe6eb;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 100vh;
+	 perspective: 1000px;
+	 overflow: hidden;
+}
+ section {
+	 position:relative;
+	 display: flex;
+	 width: 200%;
+	 height: 500px;
+	 transition: 0.5s;
+	 transform-style: preserve-3d;
+	 margin-bottom: 60px;
+}
+ .image {
+	 height: 100%;
+	 width: 200%;
+	 background: url(https://i.pinimg.com/564x/66/78/cc/6678cc90ba2f02345095fde3768eb736.jpg); 
+	 box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	 background-position: center;
+	 background-size: cover;
+	 transform: translateY(60px) skewY (2deg);
+	 border-radius: 20px;
+}
+ form {
+	 width: 50%;
+	 background-color: #fff;
+	 border-radius: 20px;
+	 transform: skewY(2deg) translateX (-20px);
+	 box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	 z-index: 1000;
+	 padding: 20px;
+	 display: flex;
+	 flex-direction: column;
+}
+ form h2 {
+	 color: #333;
+	 text-align: center;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 font-size: 30px;
+	 margin-bottom: 5px;
+}
+ span {
+	 color: #f8849d;
+}
+ label {
+	 font-size: 14px;
+	 font-weight: 400;
+	 margin: 5px 0;
+	 text-transform: capitalize;
+	 letter-spacing: 1px;
+}
+ input, textarea {
+	 padding: 5px;
+	 resize: none;
+	 outline: 0;
+	 border: 1px solid #999;
+	 border-radius: 4px;
+}
+ button {
+	 background-color: #f9b9c7;
+	 color: #000;
+	 border: 0;
+	 border-radius: 4px;
+	 cursor: pointer;
+	 margin-top: 18px;
+	 letter-spacing: 1px;
+	 text-transform: uppercase;
+	 padding: 20px;
+	 transition: 0.5s;
+	 font-weight: bold;
+}
+ button:hover {
+	 transform: scale(1.02);
+}
+ .request-message {
+	 position:absolute;
+	 top: 0;
+	 background-color: #fff;
+	 text-transform: capitalize;
+	 font-size: 14px;
+	 width: 55%;
+	 padding: 15px;
+	 transform: skewY(2deg);
+	 border-radius: 20px;
+	 color: red;
+	 box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+ .information{
+	 position:absolute;
+	 bottom: -57px;
+	 right: 25px;
+	 z-index: -20;
+	 background-color: #fff;
+	 text-transform: capitalize;
+	 font-size: 14px;
+	 width: 55%;
+	 padding: 15px;
+	 border-radius: 20px;
+	 text-align: right;
+	 transform: skewY(2ddeg);
+	 box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	 color: #333;
+}
+ a {
+	 color: #f8849d;
+	 text-decoration: 0;
+	 font-weight: 400;
+}
+ 
+
+
+
+
